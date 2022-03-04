@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body,
+  html {
+    @apply font-main m-0 w-full scroll-smooth;
+  }
+  header,
+  header div,
+  nav,
+  nav div {
+    z-index: 100;
+  }
+  section {
+    @apply scroll-mt-16;
+  }
+}

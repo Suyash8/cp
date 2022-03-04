@@ -1,0 +1,39 @@
+{
+  "name": "computer-paradise",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && next export",
+    "start": "next dev",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@chakra-ui/icons": "1.1.1",
+    "@chakra-ui/react": "^1.8.1",
+    "@emotion/react": "^11",
+    "@emotion/styled": "^11",
+    "@headlessui/react": "1.4.3",
+    "@heroicons/react": "1.0.5",
+    "@ostai/next-css": "1.0.2",
+    "@tailwindcss/forms": "0.4.0",
+    "autoprefixer": "10.4.2",
+    "firebase": "^9.6.5",
+    "framer-motion": "^5",
+    "next": "12.0.9",
+    "nodemon": "2.0.15",
+    "postcss": "8.4.5",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-icons": "^4.3.1",
+    "react-sizeme": "3.0.2",
+    "react-slick": "^0.28.1",
+    "tailwindcss": "3.0.17"
+  },
+  "devDependencies": {
+    "eslint": "8.7.0",
+    "eslint-config-next": "12.0.9"
+  },
+  "keywords": [],
+  "description": "A website for my father's business 'Computer Paradise'"
+}
